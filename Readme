@@ -1,0 +1,40 @@
+localhost:7078/accounts/addaccount         (post)
+
+{
+    
+    "accountnumber": 5000,    
+    "balance" : 500,
+    "accountType": "saving",
+    "customer":{
+        "firstName":"Vishal",
+        "lastName":"Yadav",
+        "customerNumber":6000,
+        "customerAddress":"And",
+        "contactDetails":6789
+
+    }
+    
+}
+
+localhost:7078/accounts/3  get
+
+localhost:7078/accounts/allaccount    get
+
+localhost:7078/accounts/transfer/1/3/10000  get
+
+localhost:7078/customers/allcustomers
+
+localhost:7078/customers/2       put
+
+{
+        "firstName":"Vishalss",
+        "lastName":"Yadavs",
+        "customerNumber":8000,
+        "customerAddress":"And",
+        "contactDetails":6789
+
+    }
+    
+    
+    
+    localhost:7078/accounts/3
